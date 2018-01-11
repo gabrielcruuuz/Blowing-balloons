@@ -1,0 +1,38 @@
+.tela-principal{
+	float: left;
+	width: auto;
+	height: 500px;
+	background: #FFF;
+	margin-right: 20px;
+}
+
+
+.cronometro{
+
+	width: 140px;
+	height: 132px;
+
+}
+
+.cronometro td{
+
+	background: url('imagens/cronometro.png');
+	text-align: center;
+}
+
+#cenario{
+	float: left;
+	width: 600px;
+	height: 500px;
+	background: url('imagens/cenario.png');
+	background-position: bottom;
+}
+
+#tempo{
+	color: red;
+	font-size: 30px;
+}
+
+#baloes-inteiros, #baloes-estourados{
+	font-size: 40px;
+}
